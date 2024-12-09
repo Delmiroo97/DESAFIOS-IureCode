@@ -1,0 +1,268 @@
+/* DESKTOP */
+@media (max-width: 1200px) {
+
+    header .container nav {
+        padding: 0 6rem;
+    }
+
+    .refatorando .cartas01, .cartas02, .cartas03, .cartas04 {
+        width: 29rem;
+        height: 50rem;
+    }
+
+
+    .s-control .container {
+        padding: 9.6rem 1.5rem;
+    }
+
+    .s-questions .container .text-arrow .coment::after {
+        width: 106rem;
+    }
+
+    .s-questions .container .text-arrow span::after {
+        width: 106rem;
+    }
+
+    footer .container {
+        padding: 4.8rem 5.4rem;
+    }
+}
+
+/*TABLETS, IPAD*/
+@media (max-width: 991px) {
+    header .container nav {
+        padding: 2.4rem 3.2rem;
+    }
+
+    header .container .logo img {
+        width: 7rem;
+        height: 2rem;
+   } 
+
+   header .container nav ul li span {
+        border-radius: 0;
+        padding: 0;
+        background-color: transparent;
+   }
+
+    header .container nav ul li a {
+        padding: 0.6rem 1rem;
+        background-color: rgba(103, 103, 103, 0.39);
+        border-radius: 5rem;
+    }
+
+    .s-hero .box-container h3 {
+        line-height: 5.5rem;
+    }
+
+    .s-hero .box-container p {
+        color: var(--green);
+        margin-top: 1.6rem;
+    }
+
+    .s-hero .box-container img {
+        width: 52rem;
+        height: 32rem;
+        margin: 0 auto;
+    }
+
+
+    .s-control .container {
+        width: 76.8rem;
+        height: 32.4rem;
+        padding: 6.4rem 3.2rem;
+    }
+
+    .s-control .container .left-text {
+        max-width: 28rem;
+    }
+
+    .s-control .container .left-text h2 {
+        font-size: 3.2rem;
+        font-weight: 600;
+        line-height: 4.1rem;
+    }
+
+    .s-control .container .left-text span {
+        display: block;
+    }
+
+    .s-control .container .left-text p {
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+
+    .s-control .container .right-imagem img {
+        width: 28rem;
+        height: 19.4rem;
+    }
+
+    .refatorando {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+        padding: 6.4rem 3.2rem;
+    }
+
+    .refatorando .cartas01, .cartas02, .cartas03, .cartas04 {
+        max-width: 33.2rem;
+        max-height: 49.4rem;
+        
+    }
+
+    .bloco {
+        max-width: 33.2rem;
+        max-height: 49.4rem;
+        padding-top: 2.6rem;
+    }
+
+    .cartas01 .bloco img {
+        width: 20.8rem;
+        height: 3.9rem;
+        margin: 0 auto;
+    }
+
+    .cartas02 .bloco img {
+        width: 20.7rem;
+        height: 5.4rem;
+        margin: 0 auto;
+    }
+
+    .cartas03 .bloco img {
+        width: 20.7rem;
+        height: 4.2rem;
+        margin: 0 auto;
+    }
+
+    .cartas04 .bloco img {
+        width: 20.7rem;
+        height: 3.2rem;
+        margin: 0 auto;
+    }
+
+    .s-questions {
+        width: 100%;
+        padding: 4.8rem 3.2rem;
+        padding-left: 2rem;
+    }
+
+    .s-questions .container h3 {
+        font-weight: 600;
+        font-size: 2.4rem;
+        line-height: 3.1rem;
+        text-align: center;
+    }
+
+    .s-questions .container .text-arrow .coment h4 {
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    .s-questions .container .text-arrow .coment h4 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+
+    .s-questions .container .text-arrow .coment p {
+        max-width: 25rem;
+        text-align: start;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    .s-questions .text-arrow .coment::after { 
+        width: 100%;
+        max-width: 87rem;
+    }
+
+    .s-questions .container .text-arrow span {
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+
+    .s-questions .text-arrow span::after {
+        width: 100%;
+        max-width: 87rem;
+    }
+
+    footer .container {
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+    }
+
+    footer .container .rigth-footer { 
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+    }
+
+}
+
+
+/*MAIORIA DOS SMARTHPHONES*/
+@media (max-width: 560px) {
+    header .container nav  {
+        flex-direction: column;
+        gap: 2.3rem;
+    }
+  
+    header .container nav ul li  {
+        gap: 1rem;
+    }
+
+    header .container nav ul li span {
+        display: inline-flex;
+        width: 94px;
+    }
+
+    header .container nav .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .s-control .container {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 8rem;
+    }
+
+    .s-control .container .left-text p {
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 19.6px;
+    }
+
+    .refatorando {
+        padding-top: 31rem;
+    }
+
+    .s-questions {
+        padding-left: 2rem;
+    }
+
+    .s-questions .container .text-arrow .coment::after {
+        max-width: 34rem;
+    }
+
+    .s-questions .container .text-arrow span::after {
+        max-width: 34rem;
+    }
+
+    .left-footer img {
+        background: url(../img/logo-xbox-mobile.svg);
+        background-size: cover;
+        background-position: center center;
+        width: 8.3rem;
+        height: 2.5rem;
+    }
+}
+
+
+

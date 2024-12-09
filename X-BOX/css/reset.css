@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    max-width: 121rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}

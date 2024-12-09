@@ -1,0 +1,250 @@
+header {
+    width: 100%;
+    background-color: rgba(13, 16, 12, 1);
+}
+
+header .container nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .logo img {
+    width: 100%;
+    max-width: 11.2rem;
+}
+
+header .container nav ul {
+    display: flex;
+    gap: 2.8rem;
+    padding: 2.4rem 3.2rem;
+}
+
+header .container nav ul li span {
+    padding: 0.6rem 1rem;
+    background-color: rgba(103, 103, 103, 0.39);
+    border-radius: 5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    letter-spacing: 1%;
+}
+
+header .container nav ul li a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    letter-spacing: 1%;
+    transition: opacity .3s ease;
+}
+
+header .container nav ul li a:hover {
+   opacity: 0.8; 
+}
+
+
+.s-hero {
+    width: 100%;
+    background-color: rgba(13, 16, 12, 1);
+}
+
+.s-hero .box-container h3, p {
+    text-align: center;
+}
+
+.s-hero .box-container h3 {
+    color: var(--white);
+    font-weight: 700;
+}
+
+
+.s-hero .box-container p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    letter-spacing: 0.2rem;
+    color: var(--green);
+}
+
+
+.s-hero .box-container {
+    padding: 11.2rem 0;
+}
+
+.s-control {
+    width: 100%;
+    background-color: rgba(13, 16, 12, 1);
+}
+
+.s-control .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 9.6rem 0px;
+}
+
+.s-control .container .left-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.s-control .container .left-text h2 {
+    width: 100%;  
+    max-width: 57rem; 
+    color: var(--green);
+}
+
+.s-control .container .left-text p {
+    width: 100%;  
+    max-width: 57rem; 
+    text-align: start;
+    color: rgba(192, 192, 192, 1);
+    padding-top: 1.6rem;
+}
+
+.refatorando {
+    width: 100%;
+    display: flex;
+    background-color: rgba(13, 16, 12, 1);
+}
+
+.refatorando .cartas01, .cartas02, .cartas03, .cartas04 {
+    width: 48rem;
+    height: 80rem;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 5.6rem;
+}
+
+.refatorando .cartas01 {
+    background: url(../img/img-01.jpg);
+    background-size: cover;
+}
+
+.refatorando .cartas02 {
+    background: url(../img/img-02.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.refatorando .cartas03 {
+    background: url(../img/img-03.jpg);
+    background-size: cover;
+}
+
+.refatorando .cartas04 {
+    background: url(../img/img-04.png);
+    background-size: cover;
+}
+
+.bloco {
+    width: 30rem;
+    height: 6.2rem;
+}
+
+.bloco img {
+    width: 30rem;
+    height: 6.2rem;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.s-questions {
+    background-color: rgba(13, 16, 12, 1);
+    padding: 4.8rem 3.2rem;
+}
+
+.s-questions .container h3 {
+    color: var(--green);
+}
+
+.s-questions .container h3 span {
+    color: var(--white);
+}
+
+.s-questions .container .text-arrow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-questions .container .text-arrow .coment {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.s-questions .container .text-arrow .coment h4 {
+    color: var(--white);
+    padding-top: 2.4rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+ }
+
+.s-questions .container .text-arrow .coment p {
+    color: var(--grey-30);
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    padding-top: 2.4rem;
+ }
+
+.s-questions .container .text-arrow span  {
+    color: var(--white);
+    padding-top: 2.4rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+}
+
+.s-questions .container .text-arrow .coment::after {
+    content: '';
+    display: block;
+    width: 120rem;
+    border: 1px solid rgba(46, 46, 46, 1);
+    margin-top: 1.6rem;
+}
+
+.s-questions .container .text-arrow span::after {
+    content: '';
+    display: block;
+    width: 120rem;
+    border: 1px solid rgba(46, 46, 46, 1);
+    margin-top: 1.6rem;
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(13, 16, 12, 1);
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.8rem 0px;
+}
+
+footer .container .rigth-footer {
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+}
+
+footer .container .rigth-footer p {
+    color: rgba(119, 119, 119, 1);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+
+
+
+
