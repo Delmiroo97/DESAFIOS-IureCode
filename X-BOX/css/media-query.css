@@ -213,6 +213,7 @@
   
     header .container nav ul {
         gap: 1.8rem;
+        padding: 2.4rem 0rem;
     }
 
     header .container nav ul li  {
