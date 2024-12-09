@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto X-BOX - IureCode</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components.css">
@@ -41,28 +42,28 @@
     </header>
     <section class="s-hero">
         <div class="container">
-            <div class="box-container">
+            <div class="box-container" data-aos="fade-down">
                 <h3>Xbox series X</h3>
                 <p>PEDIDO ANTECIPADO</p>
-                <img src="img/xbox-hero.png" alt="imagem xbox">
+                <img src="img/xbox-hero.png" alt="imagem xbox" data-aos="fade-up">
             </div>
         </div>
     </section>
 
     <section class="s-control">
         <div class="container">
-            <div class="left-text">
+            <div class="left-text" data-aos="fade-right"> 
                 <h2>Desempenho <span>aperfeiçoado</span></h2>
                 <p>O controle sem fio Xbox traz um design elegante, conforto refinado e compartilhamento instantâneo para um favorito comum.</p>
             </div>
 
-            <div class="right-imagem">
+            <div class="right-imagem" data-aos="fade-left">
                 <img src="img/controle-xbox.png" alt="controle de xbox">
             </div>
         </div>
     </section>
 
-    <section class="refatorando">
+    <section class="refatorando" data-aos="fade-down">
         <div class="cartas01">
             <div class="bloco">
                 <img src="img/FARCRY6.svg" alt="">
@@ -85,7 +86,7 @@
         </div>
     </section>
 
-    <section class="s-questions">
+    <section class="s-questions" data-aos="fade-up">
         <div class="container">
             <h3>Perguntas <span>frequentes</span></h3>
             <div class="text-arrow">
@@ -108,15 +109,25 @@
 
     <footer>
         <div class="container">
-            <div class="left-footer">
+            <div class="left-footer" data-aos="fade-right">
                 <img src="img/logo-xbox-footer.svg" alt="logo Xbox">
             </div>
 
-            <div class="rigth-footer">
+            <div class="rigth-footer" data-aos="fade-left">
                 <p>© Microsoft 2022</p>
                 <p>Todos os direitos reservados</p>
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 2000,
+            once: true,
+            diable: 'mobile'
+        });
+    </script>
 </body>
 </html>
