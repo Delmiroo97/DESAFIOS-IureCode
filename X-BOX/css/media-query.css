@@ -249,12 +249,11 @@
     }
 
     .s-questions {
-        padding-left: 0rem;
-        padding-right: 11rem;
+        padding-left: 2rem;
     }
 
     .s-questions .container {
-        padding: 0 2rem;
+        padding: 0rem;
     }
 
     .s-questions .container .text-arrow .coment::after {
