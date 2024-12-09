@@ -211,6 +211,10 @@
         gap: 2.3rem;
     }
   
+    header .container nav ul {
+        gap: 1.8rem;
+    }
+
     header .container nav ul li  {
         gap: 1rem;
     }
